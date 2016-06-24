@@ -1,0 +1,12 @@
+<resources>
+
+    <string-array name="pref_Language_options">
+        <item>@string/pref_language_greek</item>
+        <item>@string/pref_language_english</item>
+    </string-array>
+    <string-array name="pref_Language_values">
+        <item>@string/pref_language_greek</item>
+        <item>@string/pref_language_english</item>
+    </string-array>
+
+</resources>

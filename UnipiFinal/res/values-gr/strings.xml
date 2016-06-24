@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unipi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh &#8230;</string>
+    <string name="action_share">Share</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="title_activity_maps_fragment">MapsFragmentActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_language_greek">Ελληνικά</string>
+    <string name="pref_language_english">Αγγλικά</string>
+    <string name="pref_language_key">Language</string>
+    <string name="pref_language_label">Prefered Language</string>
+    <string name="form_name">Παρακαλώ Εισάγετε το Όνομα</string>
+    <string name="form_email">Παρακαλώ Εισάγετε το Email σας</string>
+    <string name="form_phone">Παρακαλώ Εισάγετε το Τηλέφωνό σας</string>
+    <string name="form_message">Παρακαλούμε Γράψτε το Μήνυμα σας</string>
+    <string name="form_phone_size">The size of your PhoneNumber is not 10 numbers</string>
+    <string name="Send_Message">Αποστολή</string>
+    <string name="sending">Sending &#8230;</string>
+    <string name="Invalid_email">Invalid Email Address</string>
+    <string name="welcome_body"> \t\t Τεχνολογία Λογισμικού \n\n\t\t Καλωσορίσατε στην εφαρμογή  android για το εργαστήριο τεχνολογίας λογισμικού στο τμήμα πληροφορικής του πανεπιστημίου Πειραιά. \n 
+						\t\t Στην συγκεκριμένη εφαρμογή μπορείτε να ενημερωθείτε για όλα τα νέα και ανακοίνωσης του εργαστηρίου, καθώς σας δίνετε η δυνατότητα επικοινωνίας με αποστολή ηλεκτρονικού ταχυδρομείου για τυχόν απορίες και διευκρινίσεις του μαθήματος.\n
+ 	\n</string>
+
+</resources>

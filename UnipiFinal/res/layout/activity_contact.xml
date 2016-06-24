@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.chatt.Login" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/pad_20dp"
+        android:paddingLeft="@dimen/pad_15dp"
+        android:paddingRight="@dimen/pad_15dp"
+        android:paddingTop="@dimen/pad_20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:text="Contact Us"
+            android:textSize="24sp" 
+            android:textColor="#404040"/>
+
+        <EditText
+            android:id="@+id/edittextName"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6sp"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:hint="@string/form_name"
+            android:maxLength="100"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edittextemail"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6sp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="@string/form_email"
+            android:inputType="textEmailAddress"
+            android:maxLength="100"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edittextphone"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6sp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:hint="@string/form_phone"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edittextbody"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6sp"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+            android:hint="@string/form_message" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/send"
+                style="@style/btn_white_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Send_Message"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/pad_20dp"
+    android:paddingLeft="@dimen/pad_15dp"
+    android:paddingRight="@dimen/pad_15dp"
+    android:paddingTop="@dimen/pad_20dp"
+    tools:context="com.example.unipitest.MapsActivity" >
+
+    <TextView
+        android:id="@+id/findus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="University of Piraeus \n80 Karaoli &amp; Dimitriou Str. \n18534 Piraeus, Greece \nPhone: (+30) 210 4142121"
+        android:textColor="#404040"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/call"
+        style="@style/btn_blue_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/GpsDirections"
+        android:layout_alignLeft="@+id/GpsDirections"
+        android:layout_marginBottom="18dp"
+        android:text="Call"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/GpsDirections"
+        style="@style/btn_blue_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:text="Show Directions"
+        android:textSize="18sp" />
+
+</RelativeLayout>
